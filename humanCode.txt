@@ -36,9 +36,19 @@ scegliere account
                                         FALSE-scelgo altri due titoli
                                              - guardo trailer
                                              (..RIPETI CICLO)
-                        TRUE -scelgo se continuare a guardare una vecchia serie 
-                            (if) continuo una serie
-                                -schiaccio play
+                        FALSE -scelgo film
+                            (if) locandina interessante
+                                    TRUE-leggo trama
+                                        -guardo trailer
+                                        (if) se mi piace
+                                            TRUE- schiaccio play
+                                            FALSE-riproduzione casuale
+        
+                                    FALSE- vado nei più popolari
+                                        -scelgo due film 
+                                        -leggo trama
+                                        -guardo trailer
+                                        (if) locandina interessante(...ricomincio ciclo)
         FALSE - mi confronto con le altre persone
             -votiamo categoria film o serie
                 (if) film
